@@ -1,0 +1,13 @@
+# 运行时生成物
+__pycache__/
+*.pyc
+
+# 密钥与本地配置（永不入库）
+.env
+.env.*
+
+# 向量库（用 build_kb.py --rebuild 重建）
+data/kb/
+
+# 演示/私人文档（用 make_demo_docs.py 重新生成，或放入自己的资料）
+docs/

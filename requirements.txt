@@ -1,0 +1,10 @@
+# 最小 RAG 系统运行依赖
+markitdown>=0.1.0
+chromadb>=1.0
+sentence-transformers>=3.0
+openai>=1.0
+
+# 以下仅用于生成演示文档（make_demo_docs.py），真实使用可不装
+# python-docx
+# reportlab
+# openpyxl
